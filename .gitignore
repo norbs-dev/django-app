@@ -1,6 +1,6 @@
-/djangoapp/static/
-/djangoapp/media/
-/djangoapp/project/local_settings.py
+/app/static/
+/app/media/
+/app/project/local_settings.py
 gunicorn-error-log
 __localcode
 /data/
@@ -136,8 +136,15 @@ GitHub.sublime-settings
 
 # Visual Studio Code #
 .vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
