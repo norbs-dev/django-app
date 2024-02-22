@@ -13,8 +13,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Copy the "app" and "scripts" folders into the container
-COPY ./app /app
-COPY ./scripts /scripts
+COPY app /app
+COPY scripts /scripts
 
 # Enter in the app folder inside the container
 WORKDIR /app
