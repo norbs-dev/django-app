@@ -1,1 +1,1 @@
-Just a quick example of how to deploy a Django aoo with Docker and Docker compose.
+Just a quick example of how to deploy a Django app with Docker and Docker compose.
